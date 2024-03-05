@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora';
+}
+
+body,html{
+    width:100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #4E92AC;
+    position: relative;
+}
+
+#nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding:1vw 1vw;
+    width: 100%;
+    height:90px;;
+}
+#nav #logo img{
+    width:6vw;
+}
+
+#nav #navigation ul{
+    display: flex;
+    align-items: center;
+    gap:2.5vw;;
+}
+
+#nav #navigation ul li{
+    list-style: none;;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color:#BFC2C0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#nav #navigation ul li:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    
+}
+
+.button{
+    padding:1vw 2vw;
+    background-color: transparent;
+    border: 1px solid black;
+    color:white;
+    outline: none;;
+    border-radius: 100px;
+    font-size: 1.3vw;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+
+}
+.button:hover{
+    background-color: #24423e;
+    transform: scale(1.1);
+
+}
+
+#main #hero{
+    width: 100%;;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2vw 5vw;
+    
+}
+#main #heroleft{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;;
+}
+#main #heroleft h1{
+    font-size: 4.05vw;
+    font-weight: 400;
+    color:white;
+    text-transform: capitalize;
+    line-height: 1;
+}
+#main #heroleft h1 span{
+    color:#24423e;
+}
+#main #heroleft p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color:white;
+    width:76%;
+}
+
+#main #heroleft #buttons{
+    display: flex;
+    gap:5vw;
+    margin-top: 1vw;
+
+}
+#main #heroleft #buttons button{
+    padding:1vw 2vw;
+    background-color: transparent;
+    border: 1px solid black;
+    color:white;
+    outline: none;;
+    border-radius: 100px;
+    font-size: 1.3vw;
+    width:11vw;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#main #heroleft #buttons button:hover{
+    background-color: #24423e;
+    transform: scale(1.1);
+
+}
+#main #heroright img{
+    width:30vw;
+    margin-right: 1vw;
+    border-radius: 50px;;
+    box-shadow: 1px 1px 20px 1px #24423e;
+}
+
+
+
